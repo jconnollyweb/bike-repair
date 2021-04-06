@@ -1,0 +1,244 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(#FC5E55, #FA4083);
+}
+
+body {
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2{
+    min-height: 300px;
+    padding-top: 50px;
+
+
+
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    background-image: url(images/image-background-card1.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+}
+
+.card2 {
+    background-image: url(images/image-background-card2.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+}
+
+.card3 {
+    background-image: url(images/image-background-card3.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+}
+
+.herobox1 {
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2 {
+    width: 50%;
+    flex: 1;
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px;
+}
+
+.cards i {
+    font-size: 100px;
+    padding-top: 30px;
+}
+
+.mybutton {
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    display: inline-block;
+    border-radius: 12px 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+}
+/* psuado class*/
+.mybutton:hover{
+    background-color: rgb(163, 144, 33);
+    transition-duration: 1s ;
+}
+
+.herobox2 img {
+    border-radius: 12px;
+}
+
+nav a.mybutton {
+    margin-left: 30px;
+}
+
+.navbutton {
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    /* inline block =side by side not on top */
+    display: inline-block;
+    /* parent relative, child absolute */
+    position: relative;
+}
+
+.testimonials {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+/*pseudo element*/
+.tbox :last-child{
+    font-size: .8rem;
+
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: -25px;
+    padding-top: 15px;
+
+}
+
+.navbutton:hover .dropdown{
+    display: block;
+}
+
+.dropdown .navbutton{
+    width: 100px;
+    background-color: white;
+}
+.dropdown .navbutton a{
+    color: #FA4083 ;
+}
+
+.dropdown .navbutton a:hover{
+    background-color:#c98380;
+}
+
+.inputwrapper{
+    margin-bottom: 30px;
+}
+/* square brackets */
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+
+
+}
+
+.newline{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a{
+    margin-right: 20px;
+}
+
+input[type=radio]{
+    margin-right: 5px;
+}
+form{
+    margin: 40px 0px;
+}
+
+input[type=select]{
+    font-family: 'Roboto', sans-serif ;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+
+}
+
+
+
+
